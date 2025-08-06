@@ -1,13 +1,68 @@
-weights/icon_caption_blip2
-weights/icon_caption_florence
-weights/icon_detect/
-weights/icon_detect_v1_5/
-weights/icon_detect_v1_5_2/
-.gradio
+# Python virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache and compiled files
 __pycache__/
-debug.ipynb
-util/__pycache__/
-index.html?linkid=2289031
-wget-log
-weights/icon_caption_florence_v2/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Model weights (too large for git)
+weights/
+
+# Gradio and UI files
+.gradio/
 omnitool/gradio/uploads/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+debug.ipynb
+
+# Test outputs and temporary files
+labeled_output.png
+api_labeled_output.png
+*.log
+wget-log
+index.html?linkid=2289031
+
+# Environment variables
+.env/
